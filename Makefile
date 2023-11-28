@@ -12,7 +12,6 @@ vet:
 
 # go mod tidy is currently WIP
 # https://github.com/bazelbuild/bazel-gazelle/pull/1495
-
 tidy:
 	bazel run @rules_go//go -- mod tidy -v
 .PHONY: tidy
@@ -20,3 +19,7 @@ tidy:
 gazelle:
 	bazel run //:gazelle
 .PHONY: gazelle
+
+go-get:
+	bazel run @rules_go//go -- get -u $(DEP)
+.PHONY: go-get

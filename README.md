@@ -29,3 +29,10 @@ go install github.com/bazelbuild/buildtools/buildifier@latest
 ```sh
 go install github.com/bazelbuild/buildtools/buildozer@latest
 ```
+
+#### Adding third party dependencies
+
+For example, in order to add cobra, run: 
+```sh
+make go-get DEP=github.com/spf13/cobra@latest
+```
