@@ -2,6 +2,12 @@
 
 I don't know what is CLI will be yet, for now it will serve just as a sample boilerplate
 
+## Running
+
+```sh
+bazel run //src:cli
+```
+
 ## Build
 
 ### Bazel
@@ -28,6 +34,12 @@ go install github.com/bazelbuild/buildtools/buildifier@latest
 
 ```sh
 go install github.com/bazelbuild/buildtools/buildozer@latest
+```
+
+**Sample Usage**
+
+```sh
+buildozer 'use_repo_remove @gazelle//:extensions.bzl go_deps com_github_spf13_cobra' //MODULE.bazel:all
 ```
 
 #### Adding third party dependencies
