@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/albertocavalcante/cli/src/cmd"
 )
 
 func main() {
-	fmt.Println("CLI")
+	cmd.Execute()
 }
