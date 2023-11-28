@@ -6,6 +6,10 @@ fmt:
 	bazel run @rules_go//go -- fmt ./...
 .PHONY: fmt
 
+vet:
+	bazel run @rules_go//go -- vet ./...
+.PHONY: vet
+
 # go mod tidy is currently WIP
 # https://github.com/bazelbuild/bazel-gazelle/pull/1495
 
