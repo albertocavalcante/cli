@@ -1,0 +1,14 @@
+load("@rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "src_lib",
+    srcs = ["cli.go"],
+    importpath = "github.com/albertocavalcante/cli/src",
+    visibility = ["//visibility:private"],
+)
+
+go_binary(
+    name = "cli",
+    embed = [":src_lib"],
+    visibility = ["//visibility:public"],
+)
