@@ -5,8 +5,11 @@ gazelle(name = "gazelle")
 
 nogo(
     name = "cli_nogo",
+    vet = True,
     visibility = ["//visibility:public"],
-    deps = TOOLS_NOGO,
+    deps = [
+        "@@gazelle~~go_deps~org_golang_x_tools//go/analysis/passes/slog:go_default_library"
+    ],
 )
 
 go_library(
