@@ -107,7 +107,7 @@
     "@@gazelle~//:extensions.bzl%go_deps": {
       "general": {
         "bzlTransitiveDigest": "3lAltYJp6u8Z4k9qI7Nn1s2S5dTYTxi80hAMysQWRJE=",
-        "usagesDigest": "6PG4i9lREKrDfbRvvF6qNmblXvF/ZM9Y00uFFc1QYLw=",
+        "usagesDigest": "uFarZx3ztK55nVgAPJnNrKqGr3jt2iYQyqas0SNfo2o=",
         "recordedFileInputs": {
           "@@//go.mod": "dc555eb6b2b37dc9e0e795207078ec10a0842f8712526f0f6f40cabab4738bdf",
           "@@rules_go~//go.mod": "de22304b720f7f61350ec1c9739de6c0a1b1103fd22bfeb6e92c6c843ddc6d6e",
@@ -279,9 +279,9 @@
               "build_extra_args": [],
               "patches": [],
               "patch_args": [],
-              "sum": "h1:zdAyfUGbYmuVokhzVmghFl2ZJh5QhcfebBgmVPFYA+8=",
+              "sum": "h1:SGsXPZ+2l4JsgaCKkx+FQ9YZ5XEtA1GZYuoDjenLjvg=",
               "replace": "",
-              "version": "v0.15.0"
+              "version": "v0.23.0"
             }
           },
           "org_golang_x_net": {
@@ -411,6 +411,7 @@
             "ruleClassName": "_go_repository_config",
             "attributes": {
               "importpaths": {
+                "org_golang_x_tools": "golang.org/x/tools",
                 "com_github_spf13_cobra": "github.com/spf13/cobra",
                 "com_github_inconshreveable_mousetrap": "github.com/inconshreveable/mousetrap",
                 "com_github_spf13_pflag": "github.com/spf13/pflag",
@@ -418,7 +419,6 @@
                 "com_github_golang_mock": "github.com/golang/mock",
                 "com_github_golang_protobuf": "github.com/golang/protobuf",
                 "org_golang_x_net": "golang.org/x/net",
-                "org_golang_x_tools": "golang.org/x/tools",
                 "org_golang_google_genproto": "google.golang.org/genproto",
                 "org_golang_google_grpc": "google.golang.org/grpc",
                 "org_golang_google_grpc_cmd_protoc_gen_go_grpc": "google.golang.org/grpc/cmd/protoc-gen-go-grpc",
@@ -493,6 +493,7 @@
         },
         "moduleExtensionMetadata": {
           "explicitRootModuleDirectDeps": [
+            "org_golang_x_tools",
             "com_github_spf13_cobra"
           ],
           "explicitRootModuleDirectDevDeps": [],
@@ -511,7 +512,7 @@
     "@@gazelle~//internal/bzlmod:non_module_deps.bzl%non_module_deps": {
       "general": {
         "bzlTransitiveDigest": "0PnDR2q/iZ8FAqFYPeMgRVOuc9IXVH37/O1Pw7L0O7I=",
-        "usagesDigest": "sGl/m9rLpyKZKKRQ41ZUMW7O3IMZUSC66qM+6bxbPBo=",
+        "usagesDigest": "9UaxB3b+wGcMHnRqaUvFg1rAZOwKhPpthRyAdUb3bjE=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
