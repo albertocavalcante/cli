@@ -511,7 +511,7 @@
     "@@gazelle~//internal/bzlmod:non_module_deps.bzl%non_module_deps": {
       "general": {
         "bzlTransitiveDigest": "0PnDR2q/iZ8FAqFYPeMgRVOuc9IXVH37/O1Pw7L0O7I=",
-        "usagesDigest": "9UaxB3b+wGcMHnRqaUvFg1rAZOwKhPpthRyAdUb3bjE=",
+        "usagesDigest": "sGl/m9rLpyKZKKRQ41ZUMW7O3IMZUSC66qM+6bxbPBo=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
