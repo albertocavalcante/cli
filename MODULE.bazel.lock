@@ -109,10 +109,10 @@
         "bzlTransitiveDigest": "3lAltYJp6u8Z4k9qI7Nn1s2S5dTYTxi80hAMysQWRJE=",
         "usagesDigest": "6PG4i9lREKrDfbRvvF6qNmblXvF/ZM9Y00uFFc1QYLw=",
         "recordedFileInputs": {
-          "@@//go.mod": "eef135f4c5d21a41e4d7a6af8e88dce52e3cd974e8c6b1e5c32349162aa14c81",
+          "@@//go.mod": "dc555eb6b2b37dc9e0e795207078ec10a0842f8712526f0f6f40cabab4738bdf",
           "@@rules_go~//go.mod": "de22304b720f7f61350ec1c9739de6c0a1b1103fd22bfeb6e92c6c843ddc6d6e",
           "@@gazelle~//go.sum": "7c4460e8ecb5dd8691a51d4fa2e9e4751108b933636497ce46db499fc2e7a88d",
-          "@@//go.sum": "df686bf4750dcbc69fd14d1c87d8fcb1bb3aff59e9540f1b4b10b0f32b010c6a",
+          "@@//go.sum": "971b557d3f27e5030056658b36333ecd1f6bdd0e21d9c09fae65edd86a1aa622",
           "@@rules_go~//go.sum": "d56fdb19b21a5f12bcf625c49432371ac39c2def0f564098fbda107f7c080f40",
           "@@gazelle~//go.mod": "48dc6e771c3028ee1c18b9ffc81e596fd5f6d7e0016c5ef280e30f2821f60473"
         },
@@ -204,9 +204,9 @@
               "build_extra_args": [],
               "patches": [],
               "patch_args": [],
-              "sum": "h1:7aJaZx1B85qltLMc546zn58BxxfZdR/W22ej9CFoEf0=",
+              "sum": "h1:e5/vxKd/rZsfSJMUX1agtjeTDf+qv1/JdBF8gg5k9ZM=",
               "replace": "",
-              "version": "v1.8.0"
+              "version": "v1.8.1"
             }
           },
           "org_golang_google_protobuf": {
@@ -782,7 +782,7 @@
       },
       "os:windows,arch:amd64": {
         "bzlTransitiveDigest": "JFrCnX1tTDAqjKVGYDdGNiwf4OvEAFVF170rNP7HQPw=",
-        "usagesDigest": "q1mmmbZKWnAJG0aPz2YBSSExa0b1j6QsUUvuCjuZHJY=",
+        "usagesDigest": "nBgblBHKtEZHNz6DlGNBiDrIyIE/zwrwXD0mfGjokNs=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -996,7 +996,7 @@
             "bzlFile": "@@rules_go~//go/private:nogo.bzl",
             "ruleClassName": "go_register_nogo",
             "attributes": {
-              "nogo": "@io_bazel_rules_go//:default_nogo",
+              "nogo": "'@@//:cli_nogo'",
               "includes": [
                 "'@@//:__subpackages__'"
               ],
