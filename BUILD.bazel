@@ -1,15 +1,16 @@
 load("@gazelle//:def.bzl", "gazelle")
+load("@rules_go//go:def.bzl", "go_binary", "go_library")
 
 gazelle(name = "gazelle")
-
-load("@rules_go//go:def.bzl", "go_binary", "go_library")
 
 go_library(
     name = "cli_lib",
     srcs = ["cli.go"],
     importpath = "github.com/albertocavalcante/cli",
     visibility = ["//visibility:private"],
-    deps = ["//src/cmd"],
+    deps = [
+        "//cmd",
+    ],
 )
 
 go_binary(
