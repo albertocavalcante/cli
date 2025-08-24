@@ -2,6 +2,8 @@
     "recommendations": [
         "golang.Go",
         "BazelBuild.vscode-bazel",
-        "ms-vscode.makefile-tools"
+        "ms-vscode.makefile-tools",
+        "GitHub.vscode-github-actions",
+        "redhat.vscode-yaml",
     ]
 }
